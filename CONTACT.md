@@ -3,11 +3,16 @@
 ## For Technical Data Room Access
 
 **Organization:** Genesis Platform Inc.  
-**Inventor:** Nicholas Harris
+**Inventor:** Nicholas Harris  
+**Email:** genesis.platform.ip@gmail.com
 
 ---
 
 ## Request Data Room Access
+
+**Email your request to:** genesis.platform.ip@gmail.com
+
+**Subject Line:** "SSB Data Room Request - [Your Organization]"
 
 To request access to our complete technical data room, please provide:
 
