@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">
+    Failure Probability vs. Clamping Pressure
+  </text>
+  <text x="400" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">
+    Conceptual Analysis Based on Fracture Mechanics
+  </text>
+  
+  <!-- Axes -->
+  <line x1="100" y1="400" x2="750" y2="400" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="400" x2="100" y2="80" stroke="#333" stroke-width="2"/>
+  
+  <!-- Y-axis label -->
+  <text x="40" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333" transform="rotate(-90, 40, 240)">
+    Failure Probability (%)
+  </text>
+  
+  <!-- X-axis label -->
+  <text x="425" y="460" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Clamping Pressure (MPa)
+  </text>
+  
+  <!-- Y-axis ticks -->
+  <text x="90" y="405" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#666">0</text>
+  <text x="90" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#666">25</text>
+  <text x="90" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#666">50</text>
+  <text x="90" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#666">75</text>
+  <text x="90" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#666">100</text>
+  
+  <!-- X-axis ticks -->
+  <text x="100" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">0</text>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">10</text>
+  <text x="300" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">20</text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">40</text>
+  <text x="500" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">60</text>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">80</text>
+  <text x="700" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">100</text>
+  
+  <!-- Safe zone (green) -->
+  <rect x="100" y="80" width="90" height="320" fill="#e8f5e9" opacity="0.7"/>
+  <text x="145" y="440" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2e7d32">SAFE</text>
+  <text x="145" y="452" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2e7d32">&lt;5 MPa</text>
+  
+  <!-- Critical zone (yellow) -->
+  <rect x="190" y="80" width="60" height="320" fill="#fff3e0" opacity="0.7"/>
+  
+  <!-- Danger zone (red gradient) -->
+  <defs>
+    <linearGradient id="dangerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffebee;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#ffcdd2;stop-opacity:0.9"/>
+    </linearGradient>
+  </defs>
+  <rect x="250" y="80" width="500" height="320" fill="url(#dangerGradient)"/>
+  
+  <!-- Industry operating range box -->
+  <rect x="200" y="85" width="500" height="25" fill="#d32f2f" opacity="0.8"/>
+  <text x="450" y="102" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+    INDUSTRY OPERATING RANGE (10-100 MPa)
+  </text>
+  
+  <!-- The S-curve -->
+  <path d="M 100 390 
+           Q 120 390, 140 388 
+           Q 180 385, 200 375 
+           Q 220 360, 240 330 
+           Q 260 290, 280 240 
+           Q 300 190, 340 150 
+           Q 400 115, 500 100 
+           Q 600 92, 700 88" 
+        stroke="#d32f2f" stroke-width="3" fill="none"/>
+  
+  <!-- Critical threshold annotation -->
+  <line x1="235" y1="340" x2="235" y2="400" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="235" y="360" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#e65100" transform="rotate(-90, 250, 360)">
+    ~19 MPa Critical Threshold
+  </text>
+  
+  <!-- Data points -->
+  <circle cx="200" cy="375" r="5" fill="#d32f2f"/>
+  <circle cx="280" cy="240" r="5" fill="#d32f2f"/>
+  <circle cx="400" cy="130" r="5" fill="#d32f2f"/>
+  <circle cx="600" cy="95" r="5" fill="#d32f2f"/>
+  
+  <!-- Legend box -->
+  <rect x="550" y="200" width="180" height="100" fill="white" stroke="#ccc" rx="5"/>
+  <text x="640" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Legend</text>
+  <rect x="560" y="235" width="15" height="15" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="585" y="247" font-family="Arial, sans-serif" font-size="11" fill="#333">Safe Zone (&lt;5 MPa)</text>
+  <rect x="560" y="255" width="15" height="15" fill="#fff3e0" stroke="#ff9800"/>
+  <text x="585" y="267" font-family="Arial, sans-serif" font-size="11" fill="#333">Transition (5-19 MPa)</text>
+  <rect x="560" y="275" width="15" height="15" fill="#ffcdd2" stroke="#d32f2f"/>
+  <text x="585" y="287" font-family="Arial, sans-serif" font-size="11" fill="#333">Danger Zone (&gt;19 MPa)</text>
+  
+  <!-- Footer note -->
+  <text x="400" y="485" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#999">
+    Conceptual illustration. Exact values depend on material properties and manufacturing quality.
+  </text>
+</svg>

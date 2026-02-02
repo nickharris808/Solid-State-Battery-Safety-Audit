@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">
+    Stress Concentration at Ceramic Grain Boundaries
+  </text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">
+    Why 50 MPa Applied Pressure Creates 350+ MPa Local Stress
+  </text>
+  
+  <!-- Applied pressure arrows (top) -->
+  <text x="450" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    APPLIED PRESSURE: 50 MPa (uniform)
+  </text>
+  
+  <!-- Pressure arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1565c0"/>
+    </marker>
+  </defs>
+  
+  <g transform="translate(0, 10)">
+    <line x1="150" y1="95" x2="150" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="250" y1="95" x2="250" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="350" y1="95" x2="350" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="450" y1="95" x2="450" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="550" y1="95" x2="550" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="650" y1="95" x2="650" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="750" y1="95" x2="750" y2="125" stroke="#1565c0" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Ceramic block outline -->
+  <rect x="100" y="140" width="700" height="350" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/>
+  
+  <!-- Grain structure -->
+  <!-- Row 1 -->
+  <polygon points="120,160 220,160 230,220 180,260 110,230" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="165" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">48 MPa</text>
+  
+  <polygon points="220,160 350,160 360,230 300,270 230,220" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="285" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">52 MPa</text>
+  
+  <polygon points="350,160 490,160 480,240 410,260 360,230" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="415" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">47 MPa</text>
+  
+  <polygon points="490,160 620,160 630,220 570,260 480,240" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="555" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">51 MPa</text>
+  
+  <polygon points="620,160 780,160 780,230 700,260 630,220" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="700" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">49 MPa</text>
+  
+  <!-- Row 2 -->
+  <polygon points="110,230 180,260 200,330 140,370 100,320" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="145" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">50 MPa</text>
+  
+  <polygon points="180,260 300,270 310,340 240,370 200,330" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="245" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">48 MPa</text>
+  
+  <polygon points="300,270 410,260 440,340 370,380 310,340" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="365" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">53 MPa</text>
+  
+  <polygon points="410,260 570,260 580,350 500,380 440,340" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="495" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">46 MPa</text>
+  
+  <polygon points="570,260 700,260 720,340 640,380 580,350" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="645" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">51 MPa</text>
+  
+  <polygon points="700,260 780,230 780,350 720,340" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="745" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">49</text>
+  
+  <!-- Row 3 -->
+  <polygon points="100,320 140,370 160,450 100,470" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="125" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">47</text>
+  
+  <polygon points="140,370 240,370 260,450 160,450" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">52 MPa</text>
+  
+  <polygon points="240,370 370,380 390,470 260,450" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="315" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">48 MPa</text>
+  
+  <polygon points="370,380 500,380 530,470 390,470" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="445" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">50 MPa</text>
+  
+  <polygon points="500,380 640,380 670,470 530,470" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="585" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">49 MPa</text>
+  
+  <polygon points="640,380 780,350 780,470 670,470" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="720" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0d47a1">51 MPa</text>
+  
+  <!-- Grain boundary stress hotspots (red circles) -->
+  <circle cx="230" cy="220" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="230" y="224" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">350</text>
+  
+  <circle cx="360" cy="235" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="360" y="239" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">420</text>
+  
+  <circle cx="480" cy="250" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="480" y="254" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">380</text>
+  
+  <circle cx="300" cy="275" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="300" y="279" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">390</text>
+  
+  <circle cx="410" cy="265" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="410" y="269" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">450</text>
+  
+  <circle cx="570" cy="263" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="570" y="267" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">370</text>
+  
+  <circle cx="240" cy="372" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="240" y="376" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">360</text>
+  
+  <circle cx="440" cy="345" r="18" fill="#d32f2f" opacity="0.9"/>
+  <text x="440" y="349" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">410</text>
+  
+  <!-- Legend -->
+  <rect x="100" y="510" width="700" height="75" fill="#fafafa" stroke="#ccc" rx="5"/>
+  
+  <rect x="120" y="530" width="20" height="20" fill="#bbdefb" stroke="#1565c0"/>
+  <text x="150" y="545" font-family="Arial, sans-serif" font-size="12" fill="#333">Grain Interior (~50 MPa, near applied pressure)</text>
+  
+  <circle cx="130" y="565" r="10" fill="#d32f2f"/>
+  <text x="150" y="570" font-family="Arial, sans-serif" font-size="12" fill="#333">Grain Boundary Stress Concentration (350-450 MPa = 7-9× applied)</text>
+  
+  <text x="550" y="545" font-family="Arial, sans-serif" font-size="11" fill="#d32f2f" font-weight="bold">  Critical fracture stress: ~178 MPa</text>
+  <text x="550" y="565" font-family="Arial, sans-serif" font-size="11" fill="#d32f2f" font-weight="bold">  Grain boundary stress: 350-450 MPa</text>
+  <text x="550" y="580" font-family="Arial, sans-serif" font-size="11" fill="#d32f2f" font-weight="bold">  Result: MICRO-CRACK FORMATION</text>
+</svg>
