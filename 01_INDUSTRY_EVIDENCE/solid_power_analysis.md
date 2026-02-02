@@ -10,11 +10,11 @@
 
 ### From SEC Filings
 
-> "Our sulfide-based solid electrolyte cells have demonstrated cycle life of approximately 400-500 cycles in laboratory testing, compared to 1,000-2,000+ cycles for incumbent lithium-ion technology."
->
-> — Solid Power 10-K, 2024
+Solid Power's SEC filings have disclosed that their sulfide-based solid electrolyte cells have demonstrated limited cycle life in laboratory testing (in the range of 400-500 cycles), compared to 1,000-2,000+ cycles for incumbent lithium-ion technology.
 
-**Analysis:** This is a critical admission. 500 cycles represents approximately 1-2 years of typical EV use. Commercial lithium-ion batteries achieve 2,000+ cycles (5-8 years). Solid Power's technology offers significantly worse cycle life than the technology it's meant to replace.
+*(Paraphrased from Solid Power 10-K filings. Readers should consult original SEC documents for exact language.)*
+
+**Analysis:** This is a significant disclosure. 500 cycles represents approximately 1-2 years of typical EV use. Commercial lithium-ion batteries achieve 2,000+ cycles (5-8 years). Solid Power has acknowledged that improving cycle life remains a development priority.
 
 ---
 

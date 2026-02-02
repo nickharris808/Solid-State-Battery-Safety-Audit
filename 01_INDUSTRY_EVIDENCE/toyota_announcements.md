@@ -7,47 +7,51 @@
 
 ## Timeline of Delays
 
+*(Note: The following timeline is reconstructed from public announcements, press releases, and industry reporting. Specific quotes are paraphrased.)*
+
 ### Original Timeline (2017-2020)
 
-> "Toyota plans to commercialize solid-state batteries for electric vehicles by 2025."
->
-> — Toyota Technology Roadmap, 2020
+Toyota publicly targeted solid-state battery commercialization for electric vehicles by approximately 2025.
+
+*(Based on Toyota technology roadmap announcements)*
 
 ### First Delay (2021)
 
-> "We are revising our timeline for solid-state battery deployment to 2027, with initial limited production."
->
-> — Toyota Executive Statement, 2021
+Reports indicated Toyota was revising their timeline, pushing initial solid-state battery deployment to 2027 timeframe.
+
+*(Based on industry reporting and analyst notes)*
 
 ### Second Delay (2023)
 
-> "Mass production of solid-state batteries for passenger vehicles is now targeted for 2028-2030."
->
-> — Toyota Investor Presentation, 2023
+Further reports suggested mass production timelines shifting to 2028-2030.
 
-### Current Status (2025)
+*(Based on investor presentations and press coverage)*
 
-> "Solid-state battery development continues with focus on resolving dendrite formation challenges at high charge rates."
->
-> — Toyota Technology Update, 2025
+### Current Status (2025-2026)
+
+Toyota continues solid-state battery development with focus on resolving technical challenges including dendrite formation at high charge rates.
+
+*(Based on ongoing public statements and industry reporting)*
 
 ---
 
 ## Technical Challenges Cited
 
+*(Note: The following is based on public statements, technical presentations, and industry analysis. Specific attributions are approximate.)*
+
 ### On Dendrite Formation
 
-> "Lithium dendrite formation during fast charging remains the primary technical barrier to commercialization."
->
-> — Toyota Chief Technology Officer, 2024
+Toyota representatives have publicly acknowledged that lithium dendrite formation during fast charging remains a key technical challenge for solid-state battery commercialization.
+
+*(Based on public statements at industry conferences and investor presentations)*
 
 ### On Pressure Requirements
 
-> "Current prototype cells require mechanical compression to maintain performance. Integrating this requirement into vehicle packaging presents significant engineering challenges."
->
-> — Toyota Battery Development Team, 2023
+Industry analysts and academic sources have noted that sulfide-based solid-state systems (the approach Toyota is reportedly pursuing) typically require significant mechanical compression to maintain performance.
 
-**Analysis:** Toyota has not publicly disclosed specific pressure values, but industry sources suggest their sulfide-based approach requires approximately 100 MPa—at the extreme high end of the pressure spectrum.
+**Analysis:** Toyota has not publicly disclosed specific pressure values. Industry estimates suggest sulfide-based approaches may require pressures in the range of 50-100 MPa, though exact values are proprietary.
+
+*(Industry estimates; not officially confirmed by Toyota)*
 
 ### On Manufacturing Scalability
 
