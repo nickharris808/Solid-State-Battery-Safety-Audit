@@ -2,36 +2,40 @@
 
 ## Real Simulation Results
 
-The following animations are direct outputs from our physics simulations, demonstrating that alternative approaches to dendrite suppression exist.
+The following images are direct outputs from our `battery_moonshot` physics engine, demonstrating that alternative approaches to dendrite suppression exist.
 
 ---
 
-## 1. Mechanical Suppression Mechanism
+## 1. High-Resolution Dendrite Simulation
 
-![Mechanical Suppression](mechanics_demo.gif)
+![Dendrite Simulation](dendrite_simulation.png)
 
-*3D Simulation: The lattice structure (grey) absorbs and redistributes mechanical stress, preventing the localization that causes ceramic fracture.*
+*High-fidelity Phase-Field simulation of dendrite morphology. The Genesis architecture effectively arrests tip propagation, preventing short circuits.*
 
-**Key Observation:** Using architected geometries that create strain-energy gradients, dendrite growth can be halted before catastrophic penetration.
+**Key Observation:** Thermodynamic suppression allows for safe operation without external clamping pressure.
 
 ---
 
-## 2. Generative Design Evolution
+## 2. Architecture Comparison (3D Render)
 
-![Optimization Evolution](generative_design.gif)
+### Competitor Failure (Standard Ceramic)
+![Competitor Failure](competitor_failure.png)
+*Standard ceramic separators suffer from brittle fracture under local stress.*
 
-*Evolution of the "Stiffness Trap" geometry. The algorithm optimizes material distribution to maximize dendrite blocking potential while maintaining ionic conductivity.*
+### Genesis Stability (Architected Lattice)
+![Genesis Stable](architecture_stable.png)
+*Optimized lattice maintains integrity by distributing stress loads.*
 
 **Operating Pressure:** <0.5 MPa (vs. 10-100 MPa industry standard)
 
 ---
 
-## What These Animations Show
+## What These Images Show
 
 | Visual | What It Demonstrates | IP Status |
 |:-------|:---------------------|:----------|
-| Mechanics Demo | Stress redistribution physics | Teaser |
-| Generative Design | Optimization capability | Teaser |
+| Dendrite Simulation | Thermodynamic arrest | Teaser |
+| 3D Renders | Structural integrity comparison | Teaser |
 
 ---
 

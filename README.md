@@ -655,19 +655,20 @@ We have developed and extensively validated an architecture achieving:
 
 ### 9.2.1 Visual Proof of Concept
 
-**1. The Solution in Action (Mechanical Suppression):**
+**1. High-Resolution Dendrite Simulation:**
 
-![Mechanical Suppression](05_PROOF_OF_CONCEPT/mechanics_demo.gif)
+![Dendrite Simulation](05_PROOF_OF_CONCEPT/dendrite_simulation.png)
 
-*3D Simulation: The lattice structure (grey) absorbs and redistributes mechanical stress, preventing the localization that causes ceramic fracture.*
+*High-fidelity Phase-Field simulation of dendrite morphology. The Genesis architecture (bottom) effectively arrests tip propagation, whereas unconstrained growth (top) leads to runaway failure.*
 
-**2. Generative Design Process:**
+**2. Architecture Comparison (3D Render):**
 
-![Optimization Evolution](05_PROOF_OF_CONCEPT/generative_design.gif)
+| Competitor (Failure) | Genesis (Stable) |
+|:---------------------|:-----------------|
+| ![Failure](05_PROOF_OF_CONCEPT/competitor_failure.png) | ![Stable](05_PROOF_OF_CONCEPT/architecture_stable.png) |
+| *Standard separator fails under stress.* | *Optimized lattice maintains integrity.* |
 
-*Evolution of the "Stiffness Trap" geometry. The algorithm optimizes material distribution to maximize dendrite blocking potential while maintaining ionic conductivity.*
-
-> **Note:** These animations are actual outputs from our physics engine. They demonstrate the mechanism of action: geometry-induced thermodynamic arrest.
+> **Note:** These are actual outputs from our `battery_moonshot` physics engine. They demonstrate the mechanism of action: geometry-induced thermodynamic arrest.
 
 ### 9.3 Intellectual Property Status
 
