@@ -655,25 +655,19 @@ We have developed and extensively validated an architecture achieving:
 
 ### 9.2.1 Visual Proof of Concept
 
-**Dendrite growth comparison (real simulation output):**
+**1. The Solution in Action (Mechanical Suppression):**
 
-![Dendrite Comparison](05_PROOF_OF_CONCEPT/dendrite_comparison.png)
+![Mechanical Suppression](05_PROOF_OF_CONCEPT/mechanics_demo.gif)
 
-*Phase-field simulation showing dendrite morphology. Conventional architecture (left) vs. alternative approach (right).*
+*3D Simulation: The lattice structure (grey) absorbs and redistributes mechanical stress, preventing the localization that causes ceramic fracture.*
 
-**Dendrite arrest mechanism in action:**
+**2. Generative Design Process:**
 
-![Dendrite Arrested](05_PROOF_OF_CONCEPT/dendrite_arrested.png)
+![Optimization Evolution](05_PROOF_OF_CONCEPT/generative_design.gif)
 
-*Simulation output demonstrating dendrite growth arrested before catastrophic penetration.*
+*Evolution of the "Stiffness Trap" geometry. The algorithm optimizes material distribution to maximize dendrite blocking potential while maintaining ionic conductivity.*
 
-**Alternative architecture geometry (manufacturable):**
-
-![Alternative Architecture](05_PROOF_OF_CONCEPT/alternative_architecture.png)
-
-*Render of architected separator geometry that achieves suppression without external pressure.*
-
-> **Note:** These are actual outputs from our physics simulations. Exact parameters, dimensions, and source code are available in the private data room.
+> **Note:** These animations are actual outputs from our physics engine. They demonstrate the mechanism of action: geometry-induced thermodynamic arrest.
 
 ### 9.3 Intellectual Property Status
 
