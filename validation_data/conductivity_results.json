@@ -58,7 +58,7 @@
   "comparison_to_literature": [
     {
       "reference": "This Work (MD Simulation)",
-      "conductivity_mS_cm": 0.55,
+      "conductivity_mS_cm": 0.5485,
       "method": "GROMACS MD + Nernst-Einstein"
     },
     {
@@ -95,7 +95,7 @@
   
   "data_provenance": {
     "original_source": "validated_llzo_sim/conductivity_result.json",
-    "trajectory_file": "production.xtc (1.2+ GB)",
+    "trajectory_file": "production.xtc (29 MB compressed)",
     "msd_data_file": "msd_li.xvg (4296 data points)",
     "analysis_script": "calculate_conductivity.py"
   },

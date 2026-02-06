@@ -18,9 +18,9 @@ USAGE:
     python verification_suite.py [--verbose] [--output report.txt]
 
 VERIFIED CLAIMS:
-    1. Dendrite Suppression Factor: 12.7×
-    2. Ionic Conductivity: 0.55 mS/cm @ 300K
-    3. Cycle Life: >1000 cycles with >95% retention
+    1. Dendrite Suppression Factor: 7.6-12.7× (configuration-dependent)
+    2. Ionic Conductivity: 0.5485 mS/cm @ 300K
+    3. Cycle Life: 91.6% at 2000 cycles (physics-based model)
     4. External Pressure Requirement: <0.5 MPa
     5. Critical Pressure Threshold: ~25 MPa
 ================================================================================

@@ -359,7 +359,7 @@ def generate_conductivity_arrhenius_plot():
     PHYSICS BASIS:
     - Arrhenius equation: σ = σ₀ × exp(-Ea / kB×T)
     - Activation energy: Ea = 0.31 eV (from simulation)
-    - Room temperature conductivity: σ(300K) = 0.55 mS/cm
+    - Room temperature conductivity: σ(300K) = 0.5485 mS/cm
     """
     
     print("Generating Figure 4: Ionic Conductivity Arrhenius Plot...")

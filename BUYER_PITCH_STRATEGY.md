@@ -25,9 +25,9 @@
 "We didn't fix the chemistry. We fixed the *geometry*. We have the only architecture that stops dendrites at **Zero External Pressure (<0.5 MPa)**."
 
 **The Proof (S-Tier Validation):**
-*   **12.7× Suppression:** Show **Figure 2** (Phase-Field Simulation). "We don't just block dendrites; we trap them thermodynamically using strain-energy gradients."
-*   **0.55 mS/cm Conductivity:** "We maintain full ionic flow. No tortuosity penalty (τ < 1.2)."
-*   **>1000 Cycles:** "Validated at zero pressure. No clamps. No fatigue. No 'Death Grip'."
+*   **7.6-12.7× Suppression:** Show **Figure 2** (Phase-Field Simulation). "We don't just block dendrites; we trap them thermodynamically using strain-energy gradients."
+*   **0.5485 mS/cm Conductivity:** "We maintain full ionic flow. No tortuosity penalty (τ < 1.2)."
+*   **91.6% at 2,000 Cycles:** "Validated at zero pressure via physics-based model. No clamps. No fatigue. No 'Death Grip'."
 *   **Turnkey Manufacturability:** "We have the STL files. We have the print parameters. This is ready for binder jetting today."
 
 ---

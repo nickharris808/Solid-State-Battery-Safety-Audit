@@ -54,12 +54,14 @@
   },
   
   "improvement_metrics": {
-    "deflection_reduction_factor": 12.7,
-    "note_deflection": "115.6 nm / 9.1 nm = 12.7x reduction",
+    "deflection_reduction_factor_range": "7.6-12.7",
+    "deflection_reduction_continuous_gradient": 12.7,
+    "deflection_reduction_pixelated_gradient": 7.6,
+    "note_deflection": "12.7x from continuous gradient (115.6/9.1 nm), 7.6x from pixelated gradient (102.8/13.6 nm). Range depends on stiffness field configuration.",
     "stress_reduction_factor": 2.0,
     "note_stress": "1576.9 MPa / 780.1 MPa = 2.0x reduction",
-    "dendrite_suppression_factor": 12.7,
-    "note_suppression": "This is the KEY METRIC: 12.7x improvement in dendrite arrest capability",
+    "dendrite_suppression_factor_range": "7.6-12.7",
+    "note_suppression": "KEY METRIC: 7.6-12.7x improvement depending on stiffness field configuration. Enhanced validation (200x200) shows 452x penetration suppression.",
     "penetration_reduction_percent": 85,
     "note_penetration": "100% baseline - 15% Genesis = 85% reduction in penetration"
   },

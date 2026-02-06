@@ -25,14 +25,14 @@
 
 | Source | Value | Exact Match? |
 |:-------|:------|:-------------|
-| **Public README** | "0.55 mS/cm" | — |
-| **Private `conductivity_result.json`** | 0.5484618423910732 mS/cm | — |
-| **Private `CONDUCTIVITY_REPORT.txt`** | "0.5485 mS/cm" | — |
-| **Private README** | "0.55 mS/cm" | — |
-| **Private Patent** | "0.55 mS/cm" | — |
-| **Private QS Report** | "0.55 mS/cm" | — |
+| **Public README** | "0.5485 mS/cm" | V3 corrected |
+| **Private `conductivity_result.json`** | 0.5484618423910732 mS/cm | Source of truth |
+| **Private `CONDUCTIVITY_REPORT.txt`** | "0.5485 mS/cm" | V4 corrected |
+| **Private README** | "0.5485 mS/cm" | V4 corrected |
+| **Private Patent (Golden)** | "0.5485 mS/cm" | V4 corrected |
+| **Private QS Report** | "0.5485 mS/cm" | V4 corrected |
 
-**VERDICT:** ✅ **CONSISTENT** — All round to 0.55 mS/cm. The JSON has full precision (0.5485), properly rounded everywhere.
+**VERDICT:** ✅ **CONSISTENT** — All now use 0.5485 mS/cm (corrected from rounded 0.55 in V3/V4 update). The JSON has full precision (0.5484618...), rounded to 4 significant figures everywhere.
 
 ---
 
@@ -54,13 +54,13 @@
 
 | Source | Value | Exact Match? |
 |:-------|:------|:-------------|
-| **Public README** | ">10× improvement" (teaser) | — |
-| **Private `dendrite_suppression_results.json`** | "deflection_reduction": 12.7 | — |
-| **Private README** | "12.7× factor" | — |
-| **Private Patent** | "12.7× improvement" | — |
-| **Private QS Report** | "12.7×" | — |
+| **Public README** | "7.6-12.7× improvement" | V3 corrected |
+| **Private `dendrite_suppression_results.json`** | 7.6-12.7× range | V4 corrected |
+| **Private README** | "7.6-12.7× range" | V4 corrected |
+| **Private Patent (Golden)** | "7.6-12.7× (config-dependent)" | V4 corrected |
+| **Private QS Report** | "7.6-12.7×" | V4 corrected |
 
-**VERDICT:** ✅ **CONSISTENT** — Public correctly teases without revealing exact factor. Private documents all agree on 12.7×.
+**VERDICT:** ✅ **CONSISTENT** — All documents now use the honest range 7.6-12.7× (two stiffness field configs: continuous gradient → 12.7×, pixelated gradient → 7.6×). Corrected from standalone "12.7×" in V3/V4 update.
 
 ---
 
@@ -87,9 +87,10 @@
 | **Private Patent** | "9.1 nm" | — |
 | **Private QS Report** | Not explicitly stated | — |
 
-**MATH CHECK:** 115.6 / 9.1 = **12.7×** ✅
+**MATH CHECK:** 115.6 / 9.1 = **12.7×** (continuous gradient config) ✅  
+**MATH CHECK:** 102.8 / 13.6 = **7.6×** (pixelated gradient config) ✅
 
-**VERDICT:** ✅ **CONSISTENT**
+**VERDICT:** ✅ **CONSISTENT** — Both configs are real simulation runs; the honest range is 7.6-12.7×.
 
 ---
 
@@ -551,10 +552,10 @@ accelerate certain degradation mechanisms
 
 | Public Claim | Private Evidence | Traceable? |
 |:-------------|:-----------------|:-----------|
-| "0.55 mS/cm conductivity" | `conductivity_result.json`: 0.5485 | ✅ YES |
-| ">10× dendrite suppression" | `dendrite_suppression_results.json`: 12.7× | ✅ YES |
+| "0.5485 mS/cm conductivity" | `conductivity_result.json`: 0.5485 | ✅ YES |
+| "7.6-12.7× dendrite suppression" | `dendrite_suppression_results.json`: 7.6-12.7× | ✅ YES |
 | "<0.5 MPa pressure" | Patent Claim 18: "less than 0.5 MPa" | ✅ YES |
-| ">1000 cycles" | `zero_pressure_cycling.csv`: 1000 @ 95% | ✅ YES |
+| "91.6% at 2,000 cycles" | `genesis_cycle_life_physics.csv`: 91.6% @ 2000 | ✅ YES |
 | "Pressure causes cracks" | Fracture mechanics (standard physics) | ✅ YES |
 | "Industry uses 10-100 MPa" | SEC filings (publicly available) | ✅ YES |
 | "Alternative exists" | 72-claim patent, STL geometry | ✅ YES |

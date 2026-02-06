@@ -129,17 +129,17 @@ P_critical ≈ 25 MPa (I rounded to ~19 in some places)
 
 ### 2.1 Conductivity Value
 
-**Public White Paper:** "0.55 mS/cm"  
-**Your Data Room:** 0.5485 mS/cm (rounded to 0.55 mS/cm)  
-**STATUS:** ✅ CONSISTENT
+**Public White Paper:** "0.5485 mS/cm" (corrected in V3)  
+**Your Data Room:** 0.5485 mS/cm (exact value from conductivity_result.json)  
+**STATUS:** ✅ CONSISTENT — exact match
 
 ---
 
 ### 2.2 Dendrite Suppression Factor
 
-**Public White Paper:** ">10× improvement" (vague teaser)  
-**Your Data Room:** **12.7×** exactly  
-**STATUS:** ✅ APPROPRIATE (teases without revealing exact number)
+**Public White Paper:** "7.6-12.7× improvement" (corrected in V3 to show honest range)  
+**Your Data Room:** **7.6-12.7×** (two stiffness field configurations)  
+**STATUS:** ✅ CONSISTENT — exact match with range
 
 ---
 
@@ -254,8 +254,8 @@ P_critical ≈ 25 MPa (I rounded to ~19 in some places)
 
 | Claim in Public Paper | Your Real Data | Status |
 |:----------------------|:---------------|:-------|
-| Conductivity ~0.55 mS/cm | 0.5485 mS/cm | ✅ MATCH |
-| >10× suppression | 12.7× | ✅ TEASER OK |
+| Conductivity 0.5485 mS/cm | 0.5485 mS/cm | ✅ EXACT MATCH |
+| 7.6-12.7× suppression | 7.6-12.7× (config-dependent) | ✅ EXACT MATCH |
 | <0.5 MPa pressure | <0.5 MPa | ✅ MATCH |
 | >1000 cycles | 1000 @ 95% | ✅ MATCH |
 | 72 claims | 72 claims | ✅ MATCH |

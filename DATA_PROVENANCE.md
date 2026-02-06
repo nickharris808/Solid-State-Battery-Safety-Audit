@@ -94,7 +94,7 @@ Run `python verification_suite.py` to verify:
 | **Simulation Type** | Molecular Dynamics |
 | **Engine** | GROMACS 2025.3 |
 | **Original Location** | `validated_llzo_sim/` |
-| **Trajectory File** | `production.xtc` (~1.2 GB) |
+| **Trajectory File** | `production.xtc` (29 MB compressed) |
 | **MSD Data** | `msd_li.xvg` (4,296 data points) |
 | **Analysis Script** | `calculate_conductivity.py` |
 
@@ -174,7 +174,7 @@ $$\sigma = \frac{n q^2 D}{k_B T}$$
 
 | Reference | Conductivity (mS/cm) | Method |
 |:----------|:--------------------|:-------|
-| **This Work** | **0.55** | MD (GROMACS) |
+| **This Work** | **0.5485** | MD (GROMACS) |
 | Murugan et al. (2007) | 0.3-0.5 | Experimental EIS |
 | Wang et al. (2020) | 0.5-1.0 | Experimental (doped) |
 | Jalem et al. (2013) | 0.4-0.7 | MD (LAMMPS) |
