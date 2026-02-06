@@ -1474,7 +1474,7 @@ $$\sigma = \frac{2.27 \times 10^{-22}}{4.14 \times 10^{-21}} = 0.055 \text{ S/m}
 **Original Source:** GROMACS 2025.3 MD simulation
 - System: LLZO 2×2×2 supercell (1,536 atoms)
 - Production run: 4.27 ns
-- Trajectory: ~1.2 GB compressed XTC
+- Trajectory: ~29 MB compressed XTC (4.27 ns production)
 - Analysis: MSD-based diffusion coefficient
 
 **Key Results Extracted:**
@@ -1563,7 +1563,7 @@ Subject Line: "SSB Data Room Request - [Your Organization Name]"
 ### What the Private Data Room Contains
 
 - **Full simulation source code** (Phase-Field, MD, geometry generation)
-- **Raw trajectory data** (1.2+ GB GROMACS output)
+- **Raw trajectory data** (~29 MB GROMACS compressed XTC)
 - **Manufacturable geometry files** (STL, 50k+ facets)
 - **Complete patent filing** (72 claims, 20 equations, 20,000 words)
 - **Manufacturing process documentation**

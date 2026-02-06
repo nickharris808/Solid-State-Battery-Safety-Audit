@@ -1,0 +1,38 @@
+{
+  "target_pore_nm": 0.7,
+  "temperature_K": 300.0,
+  "RT_kJ_mol": 2.494,
+  "Li+_barrier_kJ_mol": 26.56,
+  "species_selectivity": {
+    "Li+": {
+      "name": "Li\u207a (bare)",
+      "barrier_kJ_mol": "26.6",
+      "selectivity": "1:1 (passes)",
+      "status": "\u2705 PASS"
+    },
+    "Na+": {
+      "name": "Na\u207a (bare)",
+      "barrier_kJ_mol": "19.8",
+      "selectivity": "1:1 (passes)",
+      "status": "\u2705 PASS"
+    },
+    "Li_EC4": {
+      "name": "Li\u207a(EC)\u2084 (solvated)",
+      "barrier_kJ_mol": "INFINITE",
+      "selectivity": "INFINITE",
+      "status": "\u26d4 BLOCKED"
+    },
+    "Li_H2O4": {
+      "name": "Li\u207a(H\u2082O)\u2084 (hydrated)",
+      "barrier_kJ_mol": "26.6",
+      "selectivity": "1:1 (passes)",
+      "status": "\u2705 PASS"
+    },
+    "dendrite_tip": {
+      "name": "Dendrite Tip",
+      "barrier_kJ_mol": "INFINITE",
+      "selectivity": "INFINITE",
+      "status": "\u26d4 BLOCKED"
+    }
+  }
+}
