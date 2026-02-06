@@ -1,6 +1,46 @@
-# Requirements for generating figures in this repository
-# Install: pip install -r requirements.txt
+# ================================================================================
+# GENESIS SOLID-STATE BATTERY: PUBLIC WHITE PAPER DEPENDENCIES
+# ================================================================================
+# 
+# This file lists all Python dependencies required to:
+#   1. Generate figures (generate_all_figures.py)
+#   2. Run verification suite (verification_suite.py)
+#   3. Reproduce all claims in the white paper
+# 
+# Installation:
+#   pip install -r requirements.txt
+# 
+# Python Version: 3.9+ recommended
+# 
+# ================================================================================
 
+# Core Scientific Computing
 numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
 matplotlib>=3.7.0
 seaborn>=0.12.0
+
+# Data Handling (already in stdlib, listed for clarity)
+# json - built-in
+# csv - built-in
+# os - built-in
+# sys - built-in
+# datetime - built-in
+
+# ================================================================================
+# OPTIONAL: For advanced analysis (not required for basic verification)
+# ================================================================================
+# pandas>=2.0.0          # For extended data analysis
+# plotly>=5.15.0         # For interactive plots
+# jupyter>=1.0.0         # For notebook exploration
+
+# ================================================================================
+# NOTE: The full private data room includes additional dependencies for:
+#   - GROMACS trajectory analysis (MDAnalysis)
+#   - Phase-Field simulation (custom solver)
+#   - STL geometry generation (numpy-stl)
+# 
+# These are not required for the public verification suite.
+# ================================================================================
