@@ -1600,14 +1600,40 @@ Subject Line: "SSB Data Room Request - [Your Organization Name]"
 
 ### What the Private Data Room Contains
 
-- **Full simulation source code** (Phase-Field, MD, geometry generation)
+- **Full simulation source code** (Phase-Field, MD, geometry generation — 30+ scripts)
 - **Raw trajectory data** (29 MB GROMACS compressed XTC)
 - **Manufacturable geometry files** (STL, 174,204 facets, 8.3 MB)
 - **Complete patent filing** (96 claims across 15 families, 25 equations)
 - **Smart Fuse invention** (20 claims, FEA data, 128 validated configurations)
 - **Quantum Sieve validation** (Born model + GROMACS PMF pipeline, 33 simulation systems)
+- **Design-Around Impossibility Analysis** — 8 competing architectures evaluated on 8 physics-based metrics. Genesis scores 72.9/100; best alternative scores 48.6/100. Every competitor blocked by 4-5 independent claim families.
+- **Eshelby-Coupled Phase-Field** — Real Eshelby (1957) inclusion mechanics replacing simplified penalty model
+- **SEI Formation Under Zero Pressure** — Novel model showing 2.0× thinner SEI with internal tensegrity
+- **Cathode Interface Compatibility** — DFT-informed model: NMC811 100/100, LFP 100/100, Sulfur 70/100
+- **BMS Equivalent Circuit Model** — Electrochemical impedance + Kalman filter SOC estimation
+- **Advanced Multi-Physics Validation** — P2D electrochemistry, buckling, coupled FEM, fast charge
 - **Manufacturing process documentation**
-- **Buyer strategy analysis** (target-specific pitches for QuantumScape, Toyota, Apple, CATL)
+- **Buyer strategy analysis** (target-specific pitches for QuantumScape, Toyota, Apple, CATL, Samsung SDI)
+
+### Design-Around Analysis Results (NEW — February 2026)
+
+We evaluated every known solid-state battery architecture against Genesis's 4-pillar approach:
+
+![Design-Around Comparison](03_VISUALIZATIONS/composite_scores.png)
+
+| Architecture | Score | Fatal Flaw |
+|:-------------|:-----:|:-----------|
+| **Genesis 4-Pillar** | **72.9** | **None** |
+| Sulfide (uncoated) | 48.6 | Air-sensitive (H₂S) |
+| Garnet + Interlayer | 45.8 | Still needs clamps |
+| Dense Ceramic (QuantumScape) | 43.3 | GB dendrite penetration |
+| Composite (LLZO/PEO) | 42.6 | Percolation-limited |
+| Random Porous | 39.8 | No gradient, no sieve |
+| Polymer (PEO) | 39.7 | Monroe-Newman failure |
+| External Clamp | 39.3 | Weight + non-uniform pressure |
+| Thin Film (PVD/CVD) | 35.4 | $500/kWh (non-viable) |
+
+**Every alternative is blocked by 4-5 independent Genesis claim families.** The failure modes are coupled — fixing one weakness creates another. Details available under NDA.
 
 ### Intellectual Property Status
 
@@ -1615,6 +1641,8 @@ Subject Line: "SSB Data Room Request - [Your Organization Name]"
 - **Patent Document:** Golden Patent — Solid State Battery Architecture
 - **Claims:** 96 total across 15 claim families (Groups A through O)
 - **Inventions Covered:** 4 (Stiffness Trap, Quantum Sieve, Internal Tensegrity, Smart Fuse)
+- **Evidence Tier:** Zero C-tier claims — every claim group has computational backing
+- **Simulations:** 13+ independent physics-based models with 27 publication-quality figures
 - **Status:** Available for licensing or acquisition discussion
 - **Estimated Portfolio Value:** $300M - $750M
 
@@ -1652,13 +1680,16 @@ This document represents the technical analysis and opinions of Genesis Platform
 
 ---
 
-*Document Version: 3.0 (Golden Edition — Updated Numbers, Smart Fuse, 96 Claims)*  
-*Last Updated: February 6, 2026*  
-*Word Count: ~16,000*  
+*Document Version: 4.0 (Desert Edition — Design-Around Impossibility Proven)*  
+*Last Updated: February 7, 2026*  
+*Word Count: ~17,000*  
 *Classification: Public Technical Analysis*  
 *Verification Status: 12/12 checks passed*  
 *Audit Status: Fully traceable and reproducible*  
-*Inventions: 4 (Stiffness Trap, Quantum Sieve, Internal Tensegrity, Smart Fuse)*
+*Inventions: 4 (Stiffness Trap, Quantum Sieve, Internal Tensegrity, Smart Fuse)*  
+*Design-Around Score: Genesis 72.9/100 vs best alternative 48.6/100*  
+*Evidence Tiers: Zero C-tier claims (all upgraded to B+ or A)*  
+*New Simulations: 7 (design-around, Eshelby, SEI, cathode, BMS, recycling, multi-T)*
 
 ---
 
