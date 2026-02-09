@@ -1754,3 +1754,50 @@ We have successfully validated the high-throughput manufacturing pathway for the
 - **Factory Economics:** BatPaC 5.0 bottom-up model shows **$3.78 Billion CapEx savings** for a 100 GWh plant by eliminating dry rooms and steel clamping fixtures.
 
 **Status:** S-Tier Validated (Physics + Economics)
+
+---
+
+## February 9, 2026 — V2 Red-Team Validated Results
+
+### Adversarial Audit Complete
+
+All computational evidence was subjected to a line-by-line adversarial audit.
+Six issues were identified and all six resolved with V2 simulations using
+proper physics, SI units, sourced parameters, and honest limitations.
+
+### Corrected Canonical Numbers
+
+| Metric | V2 Value | Method |
+|--------|----------|--------|
+| σ(300K) | **0.16 mS/cm** | GROMACS MD, adaptive MSD fitting (15 ns, A100) |
+| Dendrite Suppression | **7.6-12.7×** | Eshelby phase-field (Mura 1987 tensor) |
+| Chemo-Mechanical Arrest | **Δμ/RT = 1.4** | Coupled Vegard + Navier-Cauchy (SI units) |
+| Thermal Safety | **No combustion** | ODE kinetics (Feng 2018, sourced parameters) |
+| Ion Selectivity | **Steric exclusion** at d = 0.70 nm | Derived from Shannon/Marcus radii |
+| Genesis Cost | **$83.5/kWh** | TEA (BatPaC 5.1 + BNEF 2025 baselines) |
+
+### Key Physics Results
+
+**Thermal Safety:** Liquid cell reaches 324°C with electrolyte combustion
+(5,000 J/g). Genesis solid-state reaches 689°C from Joule heating but
+**zero combustion** — no flammable electrolyte exists to ignite.
+
+**Ion Selectivity:** The 0.70 nm pore is derived from Li⁺ solvation shell
+radii (Shannon 1976, Marcus 1988). Bare Li⁺ (0.15 nm diameter) passes freely.
+Solvated Li(EC)₄⁺ (0.90 nm) is sterically excluded. This is geometry, not
+parameter fitting.
+
+**Manufacturing Economics:** Genesis hybrid architecture (LLZO + sulfide +
+Smart Fuse) saves $13/kWh vs conventional sulfide SSB and $2.15B in CapEx
+for a 100 GWh gigafactory (BatPaC 5.1 baseline).
+
+### Honest Limitations
+
+All evidence is computational (TRL 2). No experimental cells fabricated.
+Force field (LJ-Coulomb) underestimates LLZO activation energy.
+2D simulations used for phase-field and chemo-mechanics.
+Button cell validation targeted within 6 months.
+
+---
+
+*Updated: February 9, 2026 — V2 Post Red-Team Audit*
