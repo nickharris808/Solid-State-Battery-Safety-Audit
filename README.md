@@ -1882,3 +1882,36 @@ and reproducibility guides, please contact directly.*
 ---
 
 *Last updated: February 9, 2026 — Post Red-Team Audit, Fully Consolidated*
+
+---
+
+## 3D Validation (February 9, 2026)
+
+New 3D simulations on 80³ grids complement the existing 2D and MD evidence:
+
+**3D Tortuosity (Laplace Solver):**
+The Gyroid pore network is 100% connected with tortuosity τ = 1.81 (GOOD).
+No dead ends. Ions navigate the 3D structure efficiently.
+Effective conductivity through the Gyroid: 0.066 mS/cm.
+
+**P2D Full-Cell Cycling (1000 Cycles):**
+Li | LLZO (0.364 mS/cm) | NMC622 cell modeled at C/2 for 1000 cycles.
+Capacity retention: 93.7% from cycle 1 to cycle 1000.
+Impedance growth dominated by SEI (parabolic, Pinson-Bazant model).
+Voltage curves generated for cycles 1, 10, 100, 500, 1000.
+
+**3D Phase-Field Fracture:**
+Bourdin-Francfort-Marigo variational fracture on 80³ grid.
+Both solid block and Gyroid penetrate at 1% strain — ceramics are brittle.
+The Gyroid advantage is damage tolerance (redundant load paths), not crack arrest.
+Honest result: this is consistent with known LLZO mechanical properties.
+
+**3D Chemo-Mechanical Stress:**
+Vegard expansion creates 150 MPa peak stress at pore walls.
+Li penetration limited to 6% of separator depth in 3D geometry.
+
+All 3D scripts and results are in the private data room (09_3D_VALIDATION/).
+
+---
+
+*Updated: February 9, 2026*
