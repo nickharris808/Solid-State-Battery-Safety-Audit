@@ -1769,7 +1769,7 @@ proper physics, SI units, sourced parameters, and honest limitations.
 
 | Metric | V2 Value | Method |
 |--------|----------|--------|
-| σ(300K) | **0.16 mS/cm** | GROMACS MD, adaptive MSD fitting (15 ns, A100) |
+| σ(300K) | **0.364 mS/cm** | GROMACS MD, adaptive MSD fitting (15 ns, A100) |
 | Dendrite Suppression | **7.6-12.7×** | Eshelby phase-field (Mura 1987 tensor) |
 | Chemo-Mechanical Arrest | **Δμ/RT = 1.4** | Coupled Vegard + Navier-Cauchy (SI units) |
 | Thermal Safety | **No combustion** | ODE kinetics (Feng 2018, sourced parameters) |
